@@ -30,7 +30,7 @@ input {
   min-height: 100vh;
 }
 
-.footer {
+.footer, .header{
   display: flex;
   justify-content: space-between;
 }
