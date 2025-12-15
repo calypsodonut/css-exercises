@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
@@ -31,13 +32,19 @@ input {
   justify-content: space-between;
 }
 
+.footer {
+background-color: #eeeeee;
+}
+
 .footer, .header{
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .left-links, .right-links {
   display:flex;
+  gap: 10px;
 }
 
 .content {
