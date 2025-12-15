@@ -24,6 +24,11 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
 .footer {
   display: flex;
@@ -32,6 +37,10 @@ input {
 
 .left-links, .right-links {
   display:flex;
+}
+
+.content {
+  flex: 1;
 }
 
 ul {
