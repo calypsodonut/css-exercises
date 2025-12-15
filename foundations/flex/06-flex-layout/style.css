@@ -24,6 +24,7 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin: 15px;
 }
 .page {
   display: flex;
@@ -44,7 +45,7 @@ background-color: #eeeeee;
 
 .left-links, .right-links {
   display:flex;
-  gap: 10px;
+  gap: 15px;
 }
 
 .content {
