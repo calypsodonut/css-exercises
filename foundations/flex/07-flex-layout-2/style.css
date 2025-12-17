@@ -10,15 +10,16 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 a {
   text-decoration: none;
   color:#eee;
   font-size: 24px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 .header {
@@ -45,7 +46,6 @@ a {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  display: flex;
   flex-shrink: 0;
   padding: 16px;
 }
@@ -67,4 +67,5 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   width: 200px;
+  padding: 16px;
 }
